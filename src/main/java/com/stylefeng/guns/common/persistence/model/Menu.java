@@ -10,8 +10,8 @@ import java.io.Serializable;
  * 菜单表
  * </p>
  *
- * @author stylefeng
- * @since 2017-06-20
+ * @author dgq
+ * @since 2017-07-12
  */
 public class Menu extends Model<Menu> {
 
