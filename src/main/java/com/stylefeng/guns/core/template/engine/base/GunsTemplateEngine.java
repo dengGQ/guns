@@ -32,6 +32,7 @@ public abstract class GunsTemplateEngine extends AbstractTemplateEngine {
         properties.put("DELIMITER_STATEMENT_START", "<%");
         properties.put("DELIMITER_STATEMENT_END", "%>");
         properties.put("HTML_TAG_FLAG", "##");
+        properties.put("RESOURCE.autoCheck", true);
         Configuration cfg = null;
         try {
             cfg = new Configuration(properties);
